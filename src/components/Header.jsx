@@ -77,8 +77,8 @@ const Header = () => {
         </a>
       </nav>
 
-      <button className="hidden md:block bg-[#a7a7a7] text-black py-3 px-8 rounded-full border-none font-medium transition-all duration-500 hover:bg-white cursor-pointer z-50">
-        SIGNIN
+      <button className="hidden md:block bg-[#a7a7a7] text-black py-2 px-8 rounded-xl border-none font-medium transition-all duration-500 hover:bg-white cursor-pointer z-50">
+        SIGN IN
       </button>
 
       {/* Mobile menu button, visable only on mobile screens */}
