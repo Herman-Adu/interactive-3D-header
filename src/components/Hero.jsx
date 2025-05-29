@@ -1,4 +1,4 @@
-import "boxicons";
+//import "boxicons";
 import "boxicons/css/boxicons.min.css";
 
 import Spline from "@splinetool/react-spline";
@@ -37,15 +37,15 @@ const Hero = () => {
         <div className="flex gap-4 mt-12">
           <a
             href="#"
-            className="border border-[#2a2a2a] py-2 sm:py-3 px-4 sm:px-5 rounded-full sm:text-lg text-sm font-semibold tracking-wider transition-all duration-300 hover:bg-[#1a1a1a]"
+            className="flex flex-row gap-1 items-center border border-[#2a2a2a] py-2 sm:py-3 px-4 sm:px-5 rounded-full sm:text-lg text-sm font-semibold tracking-wider transition-all duration-300 hover:bg-[#1a1a1a]"
           >
-            Documentation
+            <span>Documentation</span>
             <i className="bx bx-link-external"></i>
           </a>
 
           <a
             href="#"
-            className="border border-[#2a2a2a] py-2 sm:py-3 px-8 sm:px-10 rounded-full sm:text-lg text-sm font-semibold tracking-wider transition-all duration-300 hover:bg-[#1a1a1a] bg-gray-300 text-black hover:text-white"
+            className="flex flex-row gap-1 items-center border border-[#2a2a2a] py-2 sm:py-3 px-8 sm:px-10 rounded-full sm:text-lg text-sm font-semibold tracking-wider transition-all duration-300 hover:bg-[#1a1a1a] bg-gray-300 text-black hover:text-white"
           >
             Get Started
             <i className="bx bx-link-external"></i>
@@ -54,7 +54,7 @@ const Hero = () => {
       </div>
       {/* 3d Robot */}
       <Spline
-        className="absolute lg:top-0 top-[-20%] bottom-0 lg:left-[25%] sm:left-[-2%] h-full"
+        className="absolute lg:top-0 top-[-22%] bottom-0 left-[2%] lg:left-[25%] sm:left-[-6%] h-full"
         scene="https://prod.spline.design/XkZeIXSXEawESsLW/scene.splinecode"
         data-aos="fade-zoom-in"
         data-aos-easing="ease-in-back"

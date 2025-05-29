@@ -1,4 +1,4 @@
-import "boxicons";
+//import "boxicons";
 import "boxicons/css/boxicons.min.css";
 
 const Header = () => {
@@ -16,14 +16,26 @@ const Header = () => {
 
   return (
     <header className="flex justify-between items-center py-4 px-4 lg:px-20">
-      <h1
-        className="text-3xl md:text-4xl lg:text-5xl font-light m-0"
-        data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="1500"
-      >
-        AduDev
-      </h1>
+      <div className="flex flex-row justify-between items-center ">
+        <img
+          src="/adudev-light-Logo.png"
+          alt="adudev light logo"
+          className="z-10"
+          height={40}
+          width={40}
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        />
+        {/* <h1
+          className="text-3xl md:text-4xl lg:text-4xl font-light "
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
+          AduDev
+        </h1> */}
+      </div>
 
       {/* Desktop Navigation */}
       <nav className="hidden md:flex items-center gap-12">
@@ -80,7 +92,7 @@ const Header = () => {
       {/* Mobile menu - hidden by default */}
       <div
         id="mobileMenu"
-        className="hidden fixed top-16 bottom-0 right-0 left-0 md:hidden z-40 bg-black bg-opacity-70 backdrop-blur-md"
+        className="hidden fixed top-20 bottom-0 right-0 left-0 md:hidden z-40 bg-black bg-opacity-70 backdrop-blur-md"
       >
         <nav className="h-screen flex flex-col gap-6 items-center justify-center pb-28">
           <a
