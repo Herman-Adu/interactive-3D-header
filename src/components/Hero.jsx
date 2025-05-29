@@ -55,7 +55,7 @@ const Hero = () => {
       </div>
       {/* 3d Robot */}
 
-      <div className="w-full flex flex-row gap-1 items-center">
+      <div className="w-full flex flex-row items-center xl:overflow-x-hidden xl:pr-4">
         <Spline
           className="absolute lg:top-0 top-[-22%] bottom-0  h-full"
           scene="https://prod.spline.design/XkZeIXSXEawESsLW/scene.splinecode"
